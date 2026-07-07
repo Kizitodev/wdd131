@@ -1,0 +1,24 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Large Screen Styles */
+
+@media (min-width: 768px) {
+    body{
+    font-family: 'Roboto', sans-serif;
+   }
+    #menu{
+    display: none;
+  }
+    nav{
+        display: flex;
+        flex-direction: row;
+    }
+    nav a{
+        margin: 0 15px;
+    }
+}
+
