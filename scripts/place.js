@@ -30,3 +30,8 @@ if (temperature <= 10 && windSpeed > 4.8) {
 } else {
     windChill.textContent = "N/A";
 }
+
+
+
+
+
