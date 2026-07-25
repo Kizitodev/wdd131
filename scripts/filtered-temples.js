@@ -113,7 +113,7 @@ const temples = [
     templeFilter.forEach((temple) => {
 
         let card = document.createElement("section");
-        let name = document.createElement("h3");
+        let name = document.createElement("h2");
         let location = document.createElement("p");
         let dedicated = document.createElement("p");
         let area = document.createElement("p");
