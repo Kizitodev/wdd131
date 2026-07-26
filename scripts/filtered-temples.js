@@ -99,6 +99,14 @@ const temples = [
     imageUrl:
     "https://churchofjesuschristtemples.org/assets/img/temples/lisbon-portugal-temple/lisbon-portugal-temple-6315-main.jpg"
   },
+  {
+    templeName: "Melbourne Australia",
+    location: "Melbourne, Australia",
+    dedicated: "2000,june, 16 ",
+    area: 86532,
+    imageUrl:
+    "https://churchofjesuschristtemples.org/assets/img/temples/melbourne-australia-temple/melbourne-australia-temple-4399.jpg"
+  },
 
 ];
  
