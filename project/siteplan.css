@@ -1,6 +1,16 @@
 
+:root {
+    --background-color: #000;
+    --text-color:  #ffffff;
+    --logo-color:   blueviolet;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 header{
-    background-color: black;
+    background-color: var(--background-color);
     color: #fff;
     padding: 10px;
     display: flex;
@@ -10,13 +20,14 @@ header{
     font-style: italic;
     font-weight: bolder;
     font-size: xx-large;
-    background-color: blueviolet;
+    background-color: var(--logo-color);
     padding: 10px;
     border-radius: 50%;
-    color: white;
+    color:var(--text-color);
 }
 header h1{
     margin: auto;
+     font-family: 'Roboto', sans-serif;
 }
 main{
     padding: 0 10px;
@@ -24,10 +35,12 @@ main{
 main h2{
     text-align: center;
     padding: 10px;  
+    font-family: 'Roboto', sans-serif;
 }
 
 section h2{
     text-align: left;
+     font-family: 'Roboto', sans-serif;
 }
 ul li{
     list-style:none;
@@ -39,7 +52,8 @@ img{
 }
 .image-area h2{
     text-align: center;
-    padding: 10px;  
+    padding: 10px; 
+    font-family: 'Roboto', sans-serif; 
 }
 .image-area p{
     padding: 10px 5px;
