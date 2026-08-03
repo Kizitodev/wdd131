@@ -35,15 +35,17 @@
             </div>
             <!-- overall rating -->
             <div>
-                <label for="star">Overall Rating</label>
-                <label for="star1"> <input type="radio" name="rating" value="1" id="star1" required>&star;</label>
-                <label for="star2"> <input type="radio" name="rating" value="2" id="star2" required>&star;&star;</label>
-                <label for="star3"> <input type="radio" name="rating" value="3" id="star3"
-                        required>&star;&star;&star;</label>
-                <label for="star4"> <input type="radio" name="rating" value="4" id="star4"
-                        required>&star;&star;&star;&star;</label>
-                <label for="star5"> <input type="radio" name="rating" value="5" id="star5"
-                        required>&star;&star;&star;&star;&star;</label>
+                <fieldset>
+                    <legend>Overall Rating</legend>
+                    <label for="star1"> <input type="radio" name="rating" value="1" id="star1" required>&star;</label>
+                    <label for="star2"> <input type="radio" name="rating" value="2" id="star2" required>&star;&star;</label>
+                    <label for="star3"> <input type="radio" name="rating" value="3" id="star3"
+                            required>&star;&star;&star;</label>
+                    <label for="star4"> <input type="radio" name="rating" value="4" id="star4"
+                            required>&star;&star;&star;&star;</label>
+                    <label for="star5"> <input type="radio" name="rating" value="5" id="star5"
+                            required>&star;&star;&star;&star;&star;</label>
+                </fieldset>
             </div>
             <!-- Date -->
             <div class="date">
@@ -63,13 +65,13 @@
             <!-- Textarea area -->
             <div class="textarea-area">
                 <label for="comments">Written Review</label>
-                <textarea name="comments" id="comments" cols="50" rows="10" required></textarea>
+                <textarea name="comments" id="comments"  rows="8" ></textarea>
             </div>
 
             <!-- user name -->
             <div class="user-name">
                 <label for="userName">Your Name</label>
-                <input type="text" name="userName" id="userName" required>
+                <input type="text" name="userName" id="userName" >
             </div>
             <!-- submit button -->
             <input type="submit" value="Post Review" class="submit-btn">

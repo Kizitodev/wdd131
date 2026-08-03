@@ -51,16 +51,13 @@ footer {
 
 .wf1 input[type="text"],
 .wf1 input[type="date"],
-.wf1 select{
-    display: block;
+.wf1 select,
+.wf1 textarea{
+    width: 100%;
     border: solid 1px #999;
     border-radius: 6px;
     padding: .75rem;
-    color:#555 ;
-    width: 100%;
-    max-width: 400px;
-    background-color: #eee;
-    appearance: none;
+    background: #eee;
 }
 
 .wf1 input[type="radio"],
@@ -74,8 +71,7 @@ footer {
     color: #fff;
     border-radius: 6px;
     padding: .8rem;
-    width: 96%;
-    max-width: 400px;
+    width: 100%;
     margin: 10px 0;
     box-shadow: 1px 1px 4px #999;
 }
@@ -90,9 +86,16 @@ footer {
 form{
     background-color: #c2c1c1;
     border-radius: 10px;
-    padding: 0 20px;
-    margin: 10px 0;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
 }
+fieldset{
+    border: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
 @media only screen and (min-width: 35rem) {
 
     header, nav, main, footer {
