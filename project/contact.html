@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Elite Luxury Homes - Experience elegant living with our premium luxury homes - Ibekwe Chidera Kizito">
+    <meta name="author" content="Ibekwe Chidera Kizito">
+    <title> WDD 131 - Contact Elite Luxury Homes - Ibekwe Chidera Kizito</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="luxury.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+</head>
+
+<body>
+<header>
+        <nav class="navbar">
+
+                <div class="logo">
+                    <i class="fa-solid fa-building"></i>
+                    <span>Elite Homes</span>
+                </div>
+
+                <div class="hamburger" id="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+                <ul class="nav-links" id="navLinks">
+
+                    <li><a href="luxury.html">Home</a></li>
+
+                    <li><a href="about.html">About</a></li>
+
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+
+            </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero -->
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <h1>Contact Our Luxury Home Experts</h1>
+
+                <p>
+
+                    Whether you're searching for your dream home or making your next
+                    investment, our consultants are ready to help.
+
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- Gallery -->
+
+
+        <!-- Contact -->
+
+        <section class="contact">
+
+            <h2>Request a Consultation</h2>
+
+            <p id="welcomeMessage"></p>
+
+            <form id="contactForm">
+
+                <div class="input-group">
+
+                    <label for="name">Full Name</label>
+
+                    <input type="text" id="name" required placeholder="Enter your full name">
+
+                </div>
+
+                <div class="input-group">
+
+                    <label for="email">Email Address</label>
+
+                    <input type="email" id="email" required placeholder="Enter your email">
+
+                </div>
+
+                <div class="input-group">
+
+                    <label for="homeType">
+
+                        Preferred Property
+
+                    </label>
+
+                    <select id="homeType">
+
+                        <option value="Luxury Villa">Luxury Villa</option>
+
+                        <option value="Penthouse">Penthouse</option>
+
+                        <option value="Beach House">Beach House</option>
+
+                        <option value="Smart Home">Smart Home</option>
+
+                    </select>
+
+                </div>
+
+                <div class="input-group">
+
+                    <label for="budget">
+
+                        Budget ($)
+
+                    </label>
+
+                    <input type="number" id="budget" required placeholder="1000000">
+
+                </div>
+
+                <div class="input-group">
+
+                    <label for="message">
+
+                        Message
+
+                    </label>
+
+                    <textarea id="message" rows="6" required placeholder="Tell us about your dream home..."></textarea>
+
+                </div>
+
+                <button class="btn" type="submit">
+
+                    Send Inquiry
+
+                </button>
+
+            </form>
+
+            <p id="statusMessage"></p>
+
+        </section>
+
+        <!-- Office -->
+
+        <section class="services">
+
+            <h2>Visit Our Office</h2>
+
+            <div class="service-container">
+
+                <article class="card">
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    <h3>Address</h3>
+
+                    <p>
+
+                        25 Luxury Avenue,
+                        Victoria Island,
+                        Lagos, Nigeria
+
+                    </p>
+
+                </article>
+
+                <article class="card">
+
+                    <i class="fa-solid fa-phone"></i>
+
+                    <h3>Phone</h3>
+
+                    <p>
+
+                        +234 800 123 4567
+
+                    </p>
+
+                </article>
+
+                <article class="card">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    <h3>Email</h3>
+
+                    <p>
+
+                        info@elitehomes.com
+
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+     
+    <section class="inquiries">
+
+        <h2>Saved Inquiries</h2>
+
+        <ul id="inquiryList"></ul>
+
+   </section>
+    <footer>
+        <p>&copy; <span id="current-year">2026</span> | Ibekwe Chidera | Nigeria</p>
+         <p>last modified: <span id="last-modified">2026-06-18</span></p>
+    </footer>
+
+    <button id="topBtn">
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+    </button>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
